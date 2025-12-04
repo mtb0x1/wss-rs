@@ -1,7 +1,10 @@
 [package]
-name = "wss"
+name = "wss-rs"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
+authors = ["mtb0x1 <mtb0x10x1@gmail.com>"]
+description = "A Rust implementation of the wss command"
+
 
 [dependencies]
 clap = { version = "4.4", features = ["derive"] }
