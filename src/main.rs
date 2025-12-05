@@ -74,7 +74,7 @@ fn main() {
         }
     };
 
-    let mut pagemap = match Pagemap::new(args.pid) {
+    let pagemap = match Pagemap::new(args.pid) {
         Ok(p) => p,
         Err(e) => {
             eprintln!("Failed to open pagemap for PID {}: {}", args.pid, e);
